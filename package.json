@@ -4,6 +4,14 @@
     "engines": {
         "node": "16.13.0"
     },
+    "buildpacks": [
+        {
+          "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        },
+        {
+          "url": "heroku/nodejs"
+        }
+      ],
     "description": "",
     "main": "index.js",
     "scripts": {
