@@ -1,6 +1,9 @@
 {
     "name": "djs",
     "version": "1.1.0",
+    "engines": {
+        "node": "17.x"
+      },
     "description": "",
     "main": "index.js",
     "scripts": {
